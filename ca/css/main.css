@@ -58,7 +58,7 @@
 
 /* Containers */
 
-	
+
 
 	.container {
 		margin-left: auto;
@@ -2525,7 +2525,7 @@
 		  .coin-face {
 			display: block;
 			/* background: url("https://99designs-blog.imgix.net/wp-content/uploads/2016/02/99d-logo.png?auto=format&q=60&w=128&h=128&fit=crop&crop=faces") repeat center center; */
-			
+
 			-webkit-animation: flip 2s infinite;
 					animation: flip 2s infinite;
 			-webkit-transform-style: preserve-3d;
@@ -2536,13 +2536,13 @@
 			z-index: -1;
 			display: block;
 			/* background: url("https://99designs-blog.imgix.net/wp-content/uploads/2016/02/99d-logo.png?auto=format&q=60&w=128&h=128&fit=crop&crop=faces") repeat center center; */
-			
+
 			-webkit-transform: translateZ(4px);
 					transform: translateZ(4px);
 		  }
 		  .coin-face::after {
 			display: block;
-		
+
 			-webkit-transform: rotateY(90deg) translateX(-2px);
 					transform: rotateY(90deg) translateX(-2px);
 			-webkit-transform-style: preserve-3d;
@@ -2567,13 +2567,13 @@
 		background-repeat: no-repeat;
 		background-position: bottom center,	top left,	top left;
 		/* background-repeat: repeat-x,	repeat,	no-repeat; */
-		background-size: 3200px 460px,	auto,	cover; 
+		background-size: 3200px 460px,	auto,	cover;
 		background-size: center;
 		color: rgba(255, 255, 255, 0.8);
 		padding: 10em 0 20em 0;
 		position: relative;
 		text-align: center;
-		
+
 	}
 
 		#header:before, #header:after {
@@ -2891,7 +2891,7 @@
 				background-attachment: scroll,							scroll,							fixed;
 				background-size: 1600px 230px,					auto,							cover;
 				padding: 6em 0 12em 0;
-			} 
+			}
 
 				#header:before {
 					/*height: calc(100% - 25px);*/
@@ -3076,9 +3076,9 @@
 				background-image: url(../images/xyz.jpg);
 				background-position: bottom center,	top left, top left;
 				/* background-repeat: repeat-x,	repeat,	no-repeat; */
-				
-				background-size: 100% 100%,	auto, auto; 
-			} 
+
+				background-size: 100% 100%,	auto, auto;
+			}
 
 				#header:before {
 					/*height: calc(100% - 20px);*/
@@ -3215,7 +3215,7 @@
 					display: none;
 				}
 
-			
+
 				#FB-Oauth {
 					display: flex;
 					flex-direction: column;
@@ -3223,15 +3223,15 @@
 					margin-left: 15vw;
 					margin-right: 15vw;
 				}
-	
+
 				.fb-text {
 					align-self: center;
 				}
-	
+
 				.fb-login-button{
 					/* max-width: 10px; */
 					align-self: center;
 				}
-	
+
 
 	}
